@@ -24,9 +24,11 @@ gUrl.setAttribute("href","https://github.com/mertfaikcigdem")
 
 let nameSurnameDOM=document.querySelector("#nameSurname");
 let ageDOM=document.querySelector("#age");
+let nameSurname="Mert Faik Çiğdem";
+let age=21;
 
 function info(){
-    nameSurnameDOM.innerHTML="Mert Faik Çiğdem";
-    ageDOM.innerHTML=21;
+    nameSurnameDOM.innerHTML=nameSurname;
+    ageDOM.innerHTML=age;
     btn.remove();
 }
